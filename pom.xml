@@ -123,4 +123,19 @@
       </plugin>
     </plugins>
   </build>
+  <!--to read the artifacts from nexus-->
+  <repositories>
+      <repository>
+	    <id>maven-public</id>
+	    <name>maven-public</name>
+	    <url>http://localhost:8081/repository/maven-public/</<url>
+      <repository>
+    <repositories>
+    </distributionManagement>
+    <repository>
+            <id>mavereleaserepo</id>
+            <name>mavereleaserepo</name>
+	    <url>http://localhost:8081/repository/mavereleaserepo/</<url>
+          <repository>
+	  </distributionManagement>
 </project>
